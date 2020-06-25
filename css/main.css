@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "PFDinTextCondPro";
-  src: url("../fonts/pfdintextcondpro-medium.eot");
+  src: url("../fonts/PFDinTextCondPro-Medium.eot");
   src: local("☺"), url("../fonts/pfdintextcondpro-medium.woff") format("woff"), url("../fonts/pfdintextcondpro-medium.ttf") format("truetype"), url("../fonts/pfdintextcondpro-medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
@@ -1931,9 +1931,14 @@ span.yellow-shadow {
     display: flex;
     justify-content: flex-end;
     margin: 0 auto;
+    margin: 0;
   }
   .main-center .buy-now__content {
     margin: 0 auto;
+  }
+  .main-center .buy-now__price {
+    margin-top: 0px;
+    margin-bottom: 10px;
   }
   .main-center .buy-now__price-old {
     line-height: 45px;
