@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 @font-face {
   font-family: "PFDinTextCondPro";
   src: url("../fonts/PFDinTextCondPro-Medium.eot");
-  src: local("☺"), url("../fonts/PFDinTextCondPro-Medium.woff") format("woff"), url("../fonts/PFDinTextCondPro-Medium.ttf") format("truetype"), url("../fonts/PFDinTextCondPro-Medium.svg") format("svg");
+  src: local("☺"), url("../fonts/pfdinTextcondpro-medium.woff") format("woff"), url("../fonts/pfdinTextcondpro-medium.ttf") format("truetype"), url("../fonts/pfdinTextcondpro-medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
 }
