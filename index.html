@@ -24,13 +24,13 @@
 			<header class="header">
 				<div class="header__container container">
 					<div class="header__wrapper">
-						<a class="logo-wrapper"><img class="logo" src="img/logo.png" alt=""></a>
+						<a class="logo-wrapper"><img class="logo logo-header" src="img/logo.png" alt=""></a>
 						<nav class="header__menu">
 							<ul class="header__menu-list">
 								<li class="header__menu-link"><a href="#">ГЛАВНАЯ</a></li>
-								<li class="header__menu-link"><a href="#">КАК ЗАКАЗАТЬ</a></li>
-								<li class="header__menu-link"><a href="#">ХАРАКТЕРИСТИКИ</a></li>
-								<li class="header__menu-link"><a href="#">КОНТАКТЫ</a></li>
+								<li class="header__menu-link"><a href="#how-to-order">КАК ЗАКАЗАТЬ</a></li>
+								<li class="header__menu-link"><a href="#specifications">ХАРАКТЕРИСТИКИ</a></li>
+								<li class="header__menu-link"><a href="#contacts">КОНТАКТЫ</a></li>
 							</ul>
 						</nav>
 						<div class="header__contacs-delivery">
@@ -54,7 +54,7 @@
 				<div class="main-top">
 					<div class="main-top__buy-heater">
 						<div class="buy-heater__content">
-							<img class="akcia" src="img/main-top/akcia.png" alt="">
+							<span class="akcia"><div class="wrap-lenta"><span class="lenta">АКЦИЯ</span></div></span>
 							<div class="buy-heater__title-subtitle">
 								<div class="buy-heater__title">
 									<p>КУПИ</p>
@@ -67,14 +67,14 @@
 									</div>
 										<p class="plus">+</p>
 								</div>
-							</div>		
-							<img class="sushilka" src="img/main-top/sushilka.png" alt="">
+							</div>
+							<div class="sushilka"><img  src="img/main-top/sushilka.png" alt=""></div>
 							<div class="buy-heater__discount">
 								<p class="buy-heater__price-old">220</p>
 								<p class="buy-heater__price-new">179</p>
 								<p class="buy-heater__cena">грн</p>
 							</div>
-							<img class="camin" src="img/main-top/camin.png" alt="">
+							<span class="camin"><img src="img/main-top/camin.png" alt=""></span>
 						</div>
 					</div>
 					<div class="main-top__timer">
@@ -102,59 +102,81 @@
  						<div class="find-yourself__content">
 							<div class="find-yourself__title">УЗНАЕТЕ СЕБЯ?</div>
 							<div class="find-yourself__list-area">
-								<div class="find-yourself__icons">
-									<img src="img/main-center/icons-1.png" alt="">
-								</div>
 								<ul class="find-yourself__list-column">
-									<li class="list-column__header">Перемерзла</li>
-									<li class="list-column__header_m">вода в трубе?</li>
-									<li class="list-column__text">Найдите в доме место, где перемерзла вода, направьте</li>
-									<li class="list-column__text">на него обогреватель и вода появится за считанные минуты.</li>
+									<li class="list-column__header"><img src="img/main-center/icons/1-1.png" alt="">
+										<p>Перемерзла</p>
+										<p>вода в трубе?</p>
+									</li>
+									<li class="list-column__text">
+										<p>Найдите в доме место, где перемерзла вода, направьте</p>
+										<p>на него обогреватель и вода появится за считанные минуты.</p>
+									</li>
 
-									<li class="list-column__header">Нужно быстро</li>
-									<li class="list-column__header_m">высушить обувь?</li>
-									<li class="list-column__text">Вытащите стельки, поставьте их и обувь вблизи</li>
-									<li class="list-column__text">тепловентилятора - </li>
-									<li class="list-column__text">уже через 10 минут, можно отправляться в путь.</li>
+									<li class="list-column__header"><img src="img/main-center/icons/1-2.png" alt="">
+										Нужно быстро
+										<p>высушить обувь?</p>
+									</li>
+									<li class="list-column__text">
+										Вытащите стельки, поставьте их и обувь вблизи
+										<p>тепловентилятора - </p>
+										<p>уже через 10 минут, можно отправляться в путь.</p>
+									</li>
+									
+									<li class="list-column__header"><img src="img/main-center/icons/1-3.png" alt="">
+										<p>За компьютером,</p> 
+										<p">а ноги мерзнут?</p></li>
+									<li class="list-column__text">
+										Включите обогреватель на экономный режим, направьте
+										<p>на ноги и наслаждайтесь комфортной работой.</p>
+									</li>
 
-									<li class="list-column__header">За компьютером, </li>
-									<li class="list-column__header_m">а ноги мерзнут?</li>
-									<li class="list-column__text">Включите обогреватель на экономный режим, направьте</li>
-									<li class="list-column__text">на ноги и наслаждайтесь комфортной работой.</li>
-
-									<li class="list-column__header">Батарея не может</li>
-									<li class="list-column__header_m">обогреть комнату?</li>
-									<li class="list-column__text">Следите за температурой в комнате, как только опускается - </li>
-									<li class="list-column__text">незамедлительно включайте обогреватель.</li>
+									<li class="list-column__header"><img src="img/main-center/icons/1-4.png" alt="">
+										Батарея не может
+										<p>обогреть комнату?</p></li>
+									<li class="list-column__text">
+										Следите за температурой в комнате, как только опускается - 
+										<p>незамедлительно включайте обогреватель.</p>
+									</li>
 								</ul>
-								<div class="find-yourself__icons">
-									<img src="img/main-center/icons-2.png" alt="">
-								</div>
+
 								<ul class="find-yourself__list-column">
-									<li class="list-column__header">Пришли с мороза, нужно</li>
-									<li class="list-column__header_m">быстро согреться?</li>
-									<li class="list-column__text">Теплый чай, одеяло и направленный тепловентилятор</li>
-									<li class="list-column__text">поможет быстро согреться в любую погоду.</li>
+									<li class="list-column__header"><img src="img/main-center/icons/2-1.png" alt="">
+									<p>Пришли с мороза, нужно</p>
+									<p>быстро согреться?</p></li>
+									<li class="list-column__text">
+										Теплый чай, одеяло и направленный тепловентилятор
+										<p>поможет быстро согреться в любую погоду.</p>
+									</li>
 
-									<li class="list-column__header">Не хотите купаться в холодной</li>
-									<li class="list-column__header_m">ванной комнате?</li>
-									<li class="list-column__text">За 10 минут до приема душа, поставьте тепловентилятор в</li>
-									<li class="list-column__text">комнате,  закройте дверь и забудьте об этой проблеме.</li>
+									<li class="list-column__header"><img src="img/main-center/icons/2-2.png" alt="">
+									Не хотите купаться в холодной
+									<p>ванной комнате?</p></li>
+									<li class="list-column__text">
+										За 10 минут до приема душа, поставьте тепловентилятор в
+										<p>комнате,  закройте дверь и забудьте об этой проблеме.</p>
+									</li>
 
-									<li class="list-column__header">Не можете вылезти с под</li>
-									<li class="list-column__header_m">одеяла из-за холода?</li>
-									<li class="list-column__text">Конвекторы и масляные обогреватели достаточно долго</li>
-									<li class="list-column__text">разогреваются, включите тепловентелятор и поваляйтесь</li>
-									<li class="list-column__text">еще 10 минут и больше не придется терпеть утренний озноб</li>
+									<li class="list-column__header"><img src="img/main-center/icons/2-3.png" alt="">
+										Не можете вылезти с под
+										<p>одеяла из-за холода?</p></li>
+									<li class="list-column__text">
+										Конвекторы и масляные обогреватели достаточно долго
+										<p>разогреваются, включите тепловентелятор и поваляйтесь</p>
+										<p>еще 10 минут и больше не придется терпеть утренний озноб</p>
+									</li>
 
-									<li class="list-column__header">Устали от больших цен,</li>
-									<li class="list-column__header_m">но обогреватель нужен?</li>
-									<li class="list-column__text">Тепловентиляторы дешевле любых других обогревателей,</li>
-									<li class="list-column__text">но не уступают в эффективности, что позволяют им</li>
-									<li class="list-column__text">сохранить за собой место в офисах и домах еще на долгое время.</li>
-									<li class="list-column__text">время.</li>
+									<li class="list-column__header"><img src="img/main-center/icons/2-4.png" alt="">
+										Устали от больших цен,
+										<p>но обогреватель нужен?</p></li>
+									<li class="list-column__text">
+										Тепловентиляторы дешевле любых других обогревателей,
+										<p>но не уступают в эффективности, что позволяют им</p>
+										<p>сохранить за собой место в офисах и домах еще на долгое</p>
+										<p>время.</p>
+									</li>
 								</ul>
 							</div>
+							<a name="how-to-order"></a>
 						</div>
 					</div>
 					<div class="main-center__how-to-order">
@@ -162,35 +184,36 @@
 							<div class="how-to-order__title">КАК ЗАКАЗАТЬ?</div>
 							<div class="how-to-order__image"><img src="img/main-center/steps-buy.png" alt="steps-order"></div>
 							<div class="how-to-order__column">
-								<div class="how-to-order__item">
-									Выберите обогревать <br/>
-									и нажмите “заказать”
+								<div class="how-to-order__item"><p class="num">1</p>
+									<p class="first-p">Выберите обогревать 
+									<p>и нажмите “заказать”</p></p>
 								</div>
-								<div class="how-to-order__item">
-									Введите контактные <br/>
-									данные и адрес доставки
+								<div class="how-to-order__item"><p class="num">2</p>
+									Введите контактные
+									<p>данные и адрес доставки</p>
 									Номер и адрес склада
-									Новой почты, вы можете <br/>
-									узнать здесь
+									Новой почты, вы можете
+									<p>узнать здесь</p>
 								</div>
-								<div class="how-to-order__item">
-									С Вами свяжется <br/>
-									менеджер для <br/>
+								<div class="how-to-order__item"><p class="num">3</p>
+									<p>С Вами свяжется</p>
+									<p>менеджер для</p>
 									подтверждения заказа
 								</div>
-								<div class="how-to-order__item">
+								<div class="how-to-order__item"><p class="num">4</p>
 									Через несколько дней,
-									посылка прибудет, <br/>
-									о чем Вас известят по смс
+									посылка прибудет,
+									<p>о чем Вас известят по смс</p>
 								</div>
-								<div class="how-to-order__item">
+								<div class="how-to-order__item"><p class="num">5</p>
 									На складе Новой почты,
 									осмотрите и проверьте
-									обогреватель и если <br/>
-									все в порядке - <br/>
-									осуществите оплату.
+									обогреватель и если
+									<p>все в порядке -</p>
+									<p>осуществите оплату.</p>
 								</div>
 							</div>
+							<a name="specifications"></a>
 						</div>
 					</div>
 					<div class="main-center__specifications">
@@ -244,7 +267,7 @@
 											<div class="price-grn">грн</div>
 										</div>
 										<p>+ сушилка для обуви в подарок</p>
-										<button class="pay-less__button buy-now-button">ЗАКАЗАТЬ СЕЙЧАС</button>
+										<button class="pay-less__button buy-now-button">ЗАКАЗАТЬ СЕЙЧАС</button> 
 									</div>
 									<!-- Пункт - 2 -->
 									<div class="pay-less__second-item pay-less__item">
@@ -271,6 +294,7 @@
 								</div>
 							</div>
 						</div>
+						<a name="contacts"></a>
 					</div>
 				</div>
 				<div class="main-bottom">
@@ -296,7 +320,7 @@
 			<!-- Нижняя часть: обратная связь, контакты -->
 			<footer class="footer">
 				<div class="footer__container container">
-					<img class="logo" src="img/logo.png" alt="">
+					<img class="logo logo-footer" src="img/logo.png" alt="">
 					<div class="footer__telephone-number">
 						<p>+38 050 222-22-33</p>
 						<p>+38 066 344-33-33</p>
